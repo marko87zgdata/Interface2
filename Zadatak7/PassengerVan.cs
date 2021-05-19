@@ -18,7 +18,7 @@ namespace Zadatak7
 
         public override string ToString()
         {
-            return "Height: " + Height + ", NoOfPassengers: " + NoOfPassenger;
+            return $"RegNo: {RegNo}, Model: {Model}, Height: {Height}, NoOfPassenger: {NoOfPassenger}";
         }
 
         public override double GetMaxPassengers()

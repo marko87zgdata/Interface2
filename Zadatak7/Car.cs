@@ -22,7 +22,7 @@ namespace Zadatak7
 
         public override string ToString()
         {
-            return "CarType: " + CarType + ", NoOfSeats: " + NoOfSeats + ", CargoSpace: " + CargoSpace;
+            return "RegNo: " + RegNo + ", Model: " + Model + ", CarType: " + CarType + ", NoOfSeats: " + NoOfSeats + ", CargoSpace: " + CargoSpace;
         }
 
         public override double GetMaxPassengers()

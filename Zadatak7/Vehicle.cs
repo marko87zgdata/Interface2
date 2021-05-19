@@ -8,8 +8,8 @@ namespace Zadatak7
 {
     abstract class Vehicle
     {
-        private string RegNo { get; set; }
-        private string Model { get; set; }
+        public string RegNo { get; private set; }
+        public string Model { get; private set; }
         
         public Vehicle(string regNo, string model)
         {
