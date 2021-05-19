@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zadatak2
 {
-    class Laptop: Computer
+    class Laptop: Computer, IPrenosivi
     {
         public int BatCap { get; set; }
         public double Weight { get; set; }
@@ -26,6 +26,16 @@ namespace Zadatak2
         public override double CalcPort()
         {
             return Weight;
+        }
+
+        public void GetModel()
+        {
+            Console.WriteLine(Model); 
+        }
+
+        public void GetBatteryCapacity()
+        {
+            Console.WriteLine(BatCap);
         }
     }
 }

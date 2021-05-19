@@ -29,8 +29,9 @@ namespace Zadatak8
 
         public string GetLocation()
         {
-            Console.Write("Lokacija časopisa je red broj " + Red + " na polici broj "); 
-            return Polica;
+            //Console.Write("Lokacija časopisa je red broj " + Red + " na polici broj "); 
+            //return Polica;
+            return $"Lokacija časopisa je red broj {Red} na polici broj {Polica}";
         }
     }
 }

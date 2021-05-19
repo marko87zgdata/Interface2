@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zadatak2
 {
-    abstract class Computer
+    abstract class Computer: Device
     {
         public string Model { get; set; }
         public string Manufacturer { get; set; }

@@ -30,6 +30,7 @@ namespace Zadatak7
             Console.WriteLine("Teret u gepeku automobila: " + CargoSpace);
             Console.Write("Broj sjedala: ");
             return NoOfSeats;
+
         }
 
         

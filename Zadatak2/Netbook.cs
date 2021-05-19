@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zadatak2
 {
-    sealed class Netbook : Laptop
+    internal sealed class Netbook : Laptop, IPrenosivi
     {
         public Netbook(string model, string manufacturer, string opSystem, int batCap, double weight) 
             : base(model, manufacturer, opSystem, batCap, weight)
@@ -22,6 +22,16 @@ namespace Zadatak2
         public override double CalcPort()
         {
             return 1;
+        }
+
+        public void GetModel()
+        {
+            Console.WriteLine(Model);
+        }
+
+        public void GetBatteryCapacity()
+        {
+            Console.WriteLine(BatCap);
         }
     }
 }

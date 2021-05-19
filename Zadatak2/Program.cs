@@ -23,6 +23,23 @@ namespace Zadatak2
             Console.WriteLine('\n');
             Console.WriteLine("Prijenosno je: " + netb.GetCompType() + ",");
             Console.WriteLine("a njegova težina je: " + netb.CalcPort() + "kg");
+
+            Mp3Player mp3 = new Mp3Player("Sony5", 560, 1024);
+
+            Console.WriteLine('\n');
+            Console.WriteLine("netbook:");
+            netb.GetBatteryCapacity();
+            netb.GetModel();
+
+            Console.WriteLine('\n');
+            Console.WriteLine("prijenosno:");
+            prijenosno.GetBatteryCapacity();
+            prijenosno.GetModel();
+
+            Console.WriteLine('\n');
+            Console.WriteLine("mp3 player:");
+            mp3.GetBatteryCapacity();
+            mp3.GetModel();
         }
     }
 }
